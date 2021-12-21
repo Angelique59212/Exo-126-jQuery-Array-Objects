@@ -7,7 +7,8 @@ Sur la page index.html :
 - Vous allez adapter ce code pour afficher au centre de la page l'avatar de chaque utilisateur puis en dessous son nom
 ( propriété person ) , à coté du nom entre parenthéses son age ( propriété age )
 - Vous afficherez un seul utilisateur à la fois.
-- En dessous de ces éléments , vous ajouterez deux éléments html contenant "<" et ">" permettant lors du clic de passer à la personne suivante
+- En dessous de ces éléments , vous ajouterez deux éléments html contenant "<" et ">" permettant lors du clic de passer 
+à la personne suivante
 ou précédente ( "<" = personne précédente , ">" = personne suivante )
 - Dans votre fonction éxécutée lors du click sur ces éléments, vous vous assurerez que la personne existe bien dans mon
 tableau d'objet

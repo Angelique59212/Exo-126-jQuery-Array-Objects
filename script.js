@@ -28,4 +28,28 @@ $.each(arrObj, function(index, value) {
     //Afficher la propriété age pour chaque objet contenu dans mon tableau
    console.log("Affichage age utilisant jQuery = " + value.age);
 });
+let index = 0;
 
+$("#previous").click(function () {
+    index --;
+    slide();
+});
+
+$("#next").click(function () {
+    index++;
+    slide();
+});
+
+function slide() {
+    for (let i = 0; i < arrObj.length ; i++ ) {
+        $("#name").html(arrObj[index].person + arrObj[index].age) ;
+        $("img").attr("src", arrObj[index].avatar);
+    }
+}
+slide();
+
+function list() {
+        $("#name").html(arrObj[index].person + arrObj[index].age) ;
+        $("img").attr("src", arrObj[index].avatar);
+    }
+list();
